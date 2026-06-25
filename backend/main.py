@@ -1,0 +1,1 @@
+print("Gozareshdan Platform Started")
