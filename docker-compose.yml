@@ -1,0 +1,10 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: gozareshdan_backend
+    ports:
+      - "8000:8000"
+    restart: always
+    env_file:
+      - .env
